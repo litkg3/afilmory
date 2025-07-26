@@ -68,20 +68,20 @@ export const MasonryHeaderMasonryItem = ({
                 target="_blank"
                 rel="noreferrer"
                 className="text-text-secondary flex items-center justify-center p-2 duration-200 hover:text-[#E7E8E8]"
-                title="GitHub"
+                title="Bilibili"
               >
-                <i className="i-mingcute-github-fill text-sm" />
+                <i className="i-mingcute-bilibili_fill text-sm" />
               </a>
             )}
             {siteConfig.social.twitter && (
               <a
-                href={`https://twitter.com/${siteConfig.social.twitter.replace('@', '')}`}
+                href={`https://qm.qq.com/q/gLM2TAgP6w`}
                 target="_blank"
                 rel="noreferrer"
                 className="text-text-secondary flex items-center justify-center p-2 duration-200 hover:text-[#1da1f2]"
-                title="Twitter"
+                title="QQ"
               >
-                <i className="i-mingcute-twitter-fill text-sm" />
+                <i className="i-mingcute-qq-fill text-sm" />
               </a>
             )}
           </div>
@@ -89,6 +89,9 @@ export const MasonryHeaderMasonryItem = ({
 
         <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
           {t('gallery.photos', { count: data?.length || 0 })}
+        </p>
+        <p className="mt-1 text-sm italic text-gray-500 dark:text-gray-400">
+          “把零碎的美好拼成完整的回忆✨”
         </p>
       </div>
 

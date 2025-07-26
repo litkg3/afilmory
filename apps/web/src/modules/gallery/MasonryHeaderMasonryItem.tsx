@@ -75,7 +75,7 @@ export const MasonryHeaderMasonryItem = ({
             )}
             {siteConfig.social.twitter && (
               <a
-                href={`https://qm.qq.com/q/gLM2TAgP6w`}
+                href={`https://qm.qq.com/q/${siteConfig.social.twitter}`}
                 target="_blank"
                 rel="noreferrer"
                 className="text-text-secondary flex items-center justify-center p-2 duration-200 hover:text-[#1da1f2]"

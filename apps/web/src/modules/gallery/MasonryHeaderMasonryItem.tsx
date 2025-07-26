@@ -64,7 +64,7 @@ export const MasonryHeaderMasonryItem = ({
           <div className="mt-1 mb-3 flex items-center justify-center gap-3">
             {siteConfig.social.github && (
               <a
-                href={`https://github.com/${siteConfig.social.github}`}
+                href={`https://bilibili.com/${siteConfig.social.github}`}
                 target="_blank"
                 rel="noreferrer"
                 className="text-text-secondary flex items-center justify-center p-2 duration-200 hover:text-[#E7E8E8]"

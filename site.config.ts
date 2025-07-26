@@ -36,8 +36,9 @@ interface Author {
   avatar?: string
 }
 interface Social {
-  twitter?: string
   github?: string
+  twitter?: string
+
 }
 
 const defaultConfig: SiteConfig = {

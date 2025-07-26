@@ -70,7 +70,7 @@ export const MasonryHeaderMasonryItem = ({
                 className="text-text-secondary flex items-center justify-center p-2 duration-200 hover:text-[#E7E8E8]"
                 title="Bilibili"
               >
-                <i className="i-mingcute-bilibili_fill text-sm" />
+                <i className="i-mingcute-bilibili-fill text-sm" />
               </a>
             )}
             {siteConfig.social.twitter && (
